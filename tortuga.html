@@ -1,0 +1,48 @@
+<!Doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Convertir pesos a monedas</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    </head>
+<body>
+
+    <div class="container">
+        <header class="row">
+          <div class="p-3 col-lg-12 bg-success-subtle border border-success d-flex justify-content-center">
+            <h1>Conversor de pesos a monedas</h1>
+          </div>
+        </header>
+
+        <nav class="row">
+            <div class="p-3 col-lg-12 bg-success-subtle border border-success d-flex justify-content-center">
+              
+            </div>
+        </nav>
+
+
+
+
+        <div class="row">
+            <div class="col-lg-12 p-3 bg-warning-subtle border border-warning d-flex justify-content-center"><main>
+                <form action="monedas.php" method="post">
+                    <lablel for="pesos">Ingrese cantidad en pesos Uruguayos:</lablel> 
+                    <input type="number" id="pesos" name="pesos" step="0.01" required>
+                    
+                 
+                 <select name="moneda" class="form-select text-center"  aria-label="Default select example">
+                     <option value="4" >Moneda</option>
+                     <option value="1">USD</option>
+                     <option value="2">EUR</option>
+                     <option value="3">BRL</option>
+                   </select>
+                   
+                   
+                    <button type="submit" class="col-lg-12">Convertir</button>
+            </main></div>
+
+
+</div>
+</form>
+</body>
+</html>
