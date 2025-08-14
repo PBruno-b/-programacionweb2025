@@ -1,0 +1,28 @@
+<!Doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Interfaz Veterinaria</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    </head>
+    <body>
+        <header>
+        <h1 class="text-center">Veterinaria Virtual</h1>
+        </header>
+       <form action="Veterinaria.php" method="post">
+         <h2>Ingrese los datos de su mascota</h2>
+        <div class="row p-2">
+            <div class="col col-sm-3 col-md-5"><label for="nombre">Nombre de la mascota: <input type="text" id="nom" name="nom" required></label></div>
+        </div>
+        <div class="row p-2">
+            <div class="col col-sm-3 col-md-5"><laber for="edad">Edad de la mascota: <input type="number" id="age" name="age" required class="col-sm-2 col-md-2" placeholder="Años" min="0" max="20"></laber></div>
+        </div>
+        <div class="row p-2">
+            <div class="col col-sm-3 col-md-5"><label for="raza">Raza de la mascota: <input type="text" id="raz" name="raz" required></label></div>
+        </div>
+        <div class="row p-2">
+            <div class="col col-sm-3 col-md-5"><label for="vacunas">Vacunas recibidas: <input type="number" id="vac" name="vac" required class="col-sm-2 col-md-2" min="0"></label></div>
+        </div>
+       </form>
+    </body>
+</html>
