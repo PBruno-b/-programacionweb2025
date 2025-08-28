@@ -1,5 +1,8 @@
 <! DOCTYPE html>
-<html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+</head>
 <body>
 <header id="cabecera">
 <h1>Mi Blog Personal</h1>
