@@ -1,0 +1,17 @@
+<! DOCTYPE html>
+<html>
+<body>
+<header id="cabecera">
+<h1>Mi Blog Personal</h1>
+</header>
+<main>
+<article class="post" data- id="1">
+<h2>Título del Artículo 1</h2>
+<p>Contenido del primer artículo. . . </p>
+<img src="imagen1. j pg" alt="Imagen 1">
+</article>
+<! - - Más artículos - - >
+</main>
+<script src="script. j s"></script>
+</body>
+</html>
